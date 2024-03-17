@@ -1,5 +1,4 @@
 #root {
-    max-width: 1280px;
     margin: 0;
     width: 100%;
 }
@@ -42,4 +41,11 @@
     align-items: center;
     gap: 20px;
     font-size: 10px;
+}
+
+/* Common to All Pages */
+
+.storePage {
+    background-color: gray;
+    height: 100%;
 }

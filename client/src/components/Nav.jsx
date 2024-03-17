@@ -7,7 +7,8 @@ function Nav() {
     return (
         <nav className="topNav">
             <Link to="/">
-                <h1>LOGO</h1>
+                <img></img>
+                <h1>Aperture99</h1>
             </Link>
             <div className="navPageLinksContainer">
                 <ul className="navItemsList">
@@ -19,11 +20,11 @@ function Nav() {
             </div>
             <div className="navRight">
                 <Link to="/profile">
-                    <FaUsers className="loginIcon" />
+                    <button>Profile</button>
                 </Link>
 
                 <Link to="/login">
-                    <FaUsers className="loginIcon" />
+                    <button>Login</button>
                 </Link>
 
                 <Link to="/cart">
